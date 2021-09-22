@@ -50,12 +50,10 @@ function draw()
         g = random(255);
         b = random(255);  
 
-        loop();
     for(i=0; i<objects.length; i++)
     {
         if(objects[i].label == input_value)
         {
-        loop();
         replay.stop();
         percent= Math.floor(objects[i].confidence*100);
         object_name= objects[i].label;

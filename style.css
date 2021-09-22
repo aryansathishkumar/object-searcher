@@ -32,12 +32,13 @@ canvas
     width: 100%;
     background-color: black;
     color: white;
-    font-size: 22px;
+    font-size: 21px;
     bottom: 0px;
     position:fixed;
 }
 .textbox
 {
-    height: 6%;
-    width: fit-content;
+    height: 6.3%;
+    width: 40%;
+    font-size: 25px;
 }
